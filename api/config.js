@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 
 const config = {
-  authSecret:'koloskaivrakiapogeumatiatika', // secret for generating jwt token
+  authSecret:'secret', // secret for generating jwt token
 }
 
 module.exports = config
